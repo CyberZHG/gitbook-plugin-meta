@@ -1,10 +1,9 @@
 {
     "name": "gitbook-plugin-meta",
-    "description": "Dynamically add meta data to head for your gitbook",
-    "main": "index.js",
-    "version": "0.0.4",
+    "description": "Add meta data to <head> for your gitbook",
+    "version": "0.0.5",
     "engines": {
-        "gitbook": ">=2.5.1"
+        "gitbook": "*"
     },
     "homepage": "https://github.com/CyberZHG/gitbook-plugin-meta",
     "repository": {
@@ -19,8 +18,9 @@
         "properties": {
             "data": {
                 "type": "array",
-                "title": "An array of meta data.",
-                "required": false
+                "title": "Metadata",
+                "description": "An array of meta data.",
+                "default": []
             }
         }
     }

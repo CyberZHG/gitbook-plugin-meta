@@ -1,0 +1,9 @@
+{% extends template.self %}
+
+{% block head %}
+    <meta name="gitbook-plugin-meta" content="https://github.com/CyberZHG/gitbook-plugin-meta">
+    {% for datum in config.pluginsConfig.meta.data %}
+        <meta name="{{ datum.name }}" content="{{ datum.content }}">
+    {% endfor %}
+    {{ super() }}
+{% endblock %}
