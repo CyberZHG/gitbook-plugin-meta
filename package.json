@@ -1,8 +1,8 @@
 {
     "name": "gitbook-plugin-meta",
-    "description": "Add meta data to head for your gitbook",
+    "description": "Dynamically add meta data to head for your gitbook",
     "main": "index.js",
-    "version": "0.0.2",
+    "version": "0.0.4",
     "engines": {
         "gitbook": ">=2.5.1"
     },
