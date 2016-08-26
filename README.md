@@ -1,10 +1,10 @@
-# gitbook-plugin-meta
+# [gitbook-plugin-meta](https://plugins.gitbook.com/plugin/meta)
 
 [![npm](https://img.shields.io/npm/v/gitbook-plugin-meta.svg?maxAge=2592000)](https://www.npmjs.com/package/gitbook-plugin-meta)
 [![npm](https://img.shields.io/npm/dt/gitbook-plugin-meta.svg?maxAge=2592000)](https://www.npmjs.com/package/gitbook-plugin-meta)
 [![npm](https://img.shields.io/npm/l/gitbook-plugin-meta.svg?maxAge=2592000)](https://www.npmjs.com/package/gitbook-plugin-meta)
 
-Add meta data to head for your gitbook.
+Add meta data to head for your [gitbook](https://gitbook.com/).
 
 ## Config
 
@@ -29,12 +29,12 @@ And add/edit the config:
         "meta": {
             "data": [
                 {
-                  "name": "name1",
-                  "content": "content1"
+                    "name": "name1",
+                    "content": "content1"
                 },
                 {
-                  "name": "name2",
-                  "content": "content2"
+                    "name": "name2",
+                    "content": "content2"
                 },
             ]
         }
@@ -43,3 +43,6 @@ And add/edit the config:
 ```
 
 `data` is an array of objects, in which each object has the keys 'name' and 'content'.
+
+See [gitbook.json](https://github.com/CyberZHG/CLRS/blob/master/book.json) for a real example.
+
