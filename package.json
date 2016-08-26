@@ -1,7 +1,7 @@
 {
     "name": "gitbook-plugin-meta",
     "description": "Add meta data to <head> for your gitbook",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "engines": {
         "gitbook": "*"
     },
