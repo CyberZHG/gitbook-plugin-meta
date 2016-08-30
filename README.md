@@ -1,8 +1,8 @@
 # gitbook-plugin-meta
 
-[![npm](https://img.shields.io/npm/v/gitbook-plugin-meta.svg?maxAge=2592000)](https://www.npmjs.com/package/gitbook-plugin-meta)
-[![npm](https://img.shields.io/npm/dt/gitbook-plugin-meta.svg?maxAge=2592000)](https://www.npmjs.com/package/gitbook-plugin-meta)
-[![npm](https://img.shields.io/npm/l/gitbook-plugin-meta.svg?maxAge=2592000)](https://www.npmjs.com/package/gitbook-plugin-meta)
+[![npm](https://img.shields.io/npm/v/gitbook-plugin-meta.svg)](https://www.npmjs.com/package/gitbook-plugin-meta)
+[![npm](https://img.shields.io/npm/dt/gitbook-plugin-meta.svg)](https://www.npmjs.com/package/gitbook-plugin-meta)
+[![npm](https://img.shields.io/npm/l/gitbook-plugin-meta.svg)](https://www.npmjs.com/package/gitbook-plugin-meta)
 
 Add meta data to `<head>` for your [gitbooks](https://www.gitbook.com/).
 
@@ -54,7 +54,7 @@ If you have multiple metadata to add, then you can:
                 {
                     "name": "name2",
                     "content": "content2"
-                },
+                }
             ]
         }
     }
