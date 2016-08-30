@@ -35,7 +35,7 @@ And add/edit the config:
                 {
                     "name": "name2",
                     "content": "content2"
-                },
+                }
             ]
         }
     }
