@@ -33,5 +33,3 @@ And add/edit the config:
     }
 }
 ```
-
-`data` is an array of objects, in which each object has the keys 'name' and 'content'.
