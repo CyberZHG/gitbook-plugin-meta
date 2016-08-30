@@ -1,7 +1,7 @@
 {
     "name": "gitbook-plugin-meta",
     "description": "Add meta data to <head> for your gitbook",
-    "version": "0.1.7",
+    "version": "0.1.12",
     "engines": {
         "gitbook": "*"
     },
@@ -16,10 +16,19 @@
     },
     "gitbook": {
         "properties": {
+            "name": {
+                "type": "string",
+                "title": "The name of metadata:",
+                "default": ""
+            },
+            "content": {
+                "type": "string",
+                "title": "The content of metadata:",
+                "default": ""
+            },
             "data": {
                 "type": "array",
-                "title": "Metadata",
-                "description": "An array of meta data.",
+                "title": "An array of extra metadata, should be edited in book.json",
                 "default": []
             }
         }
