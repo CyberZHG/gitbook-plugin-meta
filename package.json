@@ -1,7 +1,7 @@
 {
-    "name": "gitbook-plugin-meta",
-    "description": "Add meta data to <head> for your gitbook",
-    "version": "0.1.7",
+    "name": "gitbook-plugin-meta-single",
+    "description": "Add single metadata to <head> for your gitbook",
+    "version": "0.1.9",
     "engines": {
         "gitbook": "*"
     },
@@ -16,11 +16,15 @@
     },
     "gitbook": {
         "properties": {
-            "data": {
-                "type": "array",
-                "title": "Metadata",
-                "description": "An array of meta data.",
-                "default": []
+            "name": {
+                "type": "string",
+                "required": true,
+                "default": ""
+            },
+            "content": {
+                "type": "string",
+                "required": true,
+                "default": ""
             }
         }
     }

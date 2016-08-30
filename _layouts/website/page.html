@@ -1,8 +1,6 @@
 {% extends template.self %}
 
 {% block head %}
-    {% for datum in config.pluginsConfig.meta.data %}
-    <meta name="{{ datum.name }}" content="{{ datum.content }}">
-    {% endfor %}
+    <meta name="{{ config.pluginsConfig['meta-single'].name }}" content="{{ config.pluginsConfig.['meta-single'].content }}">
     {{ super() }}
 {% endblock %}
